@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int age;
+cout<<"enter age of user\n";
+cin>>age;
+if(age>=18)
+{
+   cout<<"the user is eligible for voting\n";
+}
+else
+{
+    cout<<"the user is not eligible";
+}
+getch();
+}
